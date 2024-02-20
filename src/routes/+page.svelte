@@ -1,6 +1,5 @@
 <script lang="ts">
-	import { type MapPosition, Slideshow, BigText, ImageText } from '$lib/Slideshow';
-	import Image from '$lib/Slideshow/Slides/Image.svelte';
+	import { type MapPosition, Slideshow, BigText } from '$lib/Slideshow';
 
 	let positions: MapPosition[] = [
 		{

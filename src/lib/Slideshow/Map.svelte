@@ -7,9 +7,7 @@
 	let map: mapboxgl.Map;
 	let mapElement: HTMLDivElement;
 
-	onMount(async () => {
-		console.log('mounted');
-
+	onMount(() => {
 		mapboxgl.accessToken =
 			'pk.eyJ1IjoiaGltYXkxOTkwIiwiYSI6ImNqcTlyNnl1djBsZjU0Mm9naWk1eGtuMWoifQ.6HBtoXXQFX_JAEelXIeE9w';
 		map = new mapboxgl.Map({
@@ -17,8 +15,8 @@
 			center,
 			zoom,
 			bearing,
-			pitch
-			//interactive: false
+			pitch,
+			interactive: false
 		});
 
 		map.on('load', () => {
@@ -42,9 +40,7 @@
 
 	export let moving = false;
 
-	export let flyEnd = () => {
-		console.log('flyEnd');
-	};
+	export let flyEnd: () => void = () => {};
 
 	export const flyTo = ({
 		center,
