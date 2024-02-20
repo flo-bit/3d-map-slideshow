@@ -4,7 +4,7 @@
 https://github.com/flo-bit/3d-map-slideshow/assets/45694132/539a8f22-b771-488b-92af-b28f20d0dceb
 
 
-WIP, [demo here](https://flo-bit.github.io/3d-map-slideshow/)
+WIP, [demo here](https://flo-bit.github.io/3d-map-slideshow/) (wait a few seconds for the map to load)
 
 ## Usage
 
